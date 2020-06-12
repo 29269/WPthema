@@ -1,12 +1,11 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Duneya thema</title>
-</head>
-<body>
+<?php get_header(); ?>
+<?php
+if ( have_posts() ) :
+    while (have_posts()): the_post();?>
+        <h3><a href="<?php the_permalink();?>" ><?php the_title();?></a></h3>
+        <div><?php the_excerpt();?></div>
+    <?php endwhile; else:?>
+    <p>geen berichten gewonden</p>
+<?php endif; ?>
+<?php get_footer(); ?>
 
-<h1>Welcom</h1>
-<p>WP <br> 05-06-2020</p>
-
-</body>
-</html>
