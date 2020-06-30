@@ -16,9 +16,19 @@ Use it to make something cool, have fun, and share what you've learned with othe
 body{
 background-color: deeppink;
 }
+.jumbotron{
+   background-size: cover;
+    background-position: center center;
+    text-shadow: 0 0 3px gray;
+
+}
+.jumbotron a:hover{
+    color: white;
+    text-decoration: underline;
+}
 /*///validatie-icons style*/
 .validatie img {
-    height: 1em;
+    height: 2em;
     width: auto;
     border: 0;
     margin: 0 .3em;

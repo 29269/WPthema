@@ -30,8 +30,10 @@
             ?>
         </div>
     </nav>
-    <div class="jumbotron">
-<h1><a href="<?php echo home_url();?>" ><?php bloginfo('name'); ?></a></h1>
+    <div class="jumbotron" style="background-image: url(<?php echo get_template_directory_uri() . '/img/header.png'?>);" >
+        <div class="container">
+  <h1><a href="<?php echo home_url(); ?>"><?php bloginfo('name') ?></a></h1>
     <p class="lead"><?php bloginfo('description') ?></p>
-    </div>
+        </div>
+        </div>
 </header>
