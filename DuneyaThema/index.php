@@ -12,7 +12,7 @@ if ( have_posts() ) :
 <?php endif; ?>
 </main>
 <aside class="col-md-4 bg-light">
-    <?php dynamic_sidebar( 'primary' ); ?>
+    <?php dynamic_sidebar( 'aside' ); ?>
 </aside>
 </div>
 </div>
